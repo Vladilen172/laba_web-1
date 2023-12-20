@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё резюме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#edication">Главное</a></li>
+                <li><a href="#name">Как со мной связаться</a></li>
+                <li><a href="#contact">Контактная информация</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <div class="text-info">
+            <img src="https://sun1-56.userapi.com/s/v1/ig2/1qh9ty8H3YC_eIBIMUbsWb2eTADl0Fi0ZKPEEqwqn4QF5_llxJSPEsFpx0Mfw69J7C3QuMUM2ZEvLE6iUc0SWvK8.jpg?size=400x400&quality=95&crop=97,265,842,842&ava=1"
+            alt="Моя фотография" width="300">        
+            <h1>Нюдльчиев Владилен Геннадьевич</h1>
+            <p><em>Я студент "Московского Политехнического университета".</em></p>
+            <p><em>Хочу стать специалистом в сфере IT.</em></p>
+        </div>  
+        <h2>Образование</h2>
+            <div id="education">
+                <ul>
+                    <li>Закончил 11 классов в Москве</li>
+                    <li>В ближайшем будущем закончу обучение в "Московском Политехе"</li>
+                </ul>
+            </div>
+        <h2>Мои хобби</h2>
+        <div id="action">
+            <ul>
+                <li>Занятие спортом</li>
+                <li>Чтение художественной литературы</li>
+                <li>Постоянное самосовершенствование</li>
+                <li>Игра в волейбол</li>
+            </ul>
+        </div>
+        <h2>Личные качества</h2>
+        <div>
+            <ul>
+                <li>Доброжелательность</li>
+                <li>Исполнительность</li>
+                <li>Аккуратность</li>
+                <li>Внимание к мелочам</li>
+            </ul>
+        </div>
+        <h2>Мои социальные сети</h2>
+        <div id="social network">
+            <ul>
+                <li>
+                    <a href="https://vk.com/fnmatchmaska" target="_blank">VK</a>
+                </li>
+                <li>
+                    <a href="https://t.me/Vladd65" target="_blank">Telegram</a>
+                </li>
+            </ul>
+        </div>    
+        <h2>Как связаться со мной?</h2>
+        <form>
+            <div id="name">
+                <label for="text" class="display">Ваше ФИО:</label>
+                <input type="text" id="text" placeholder="Введите ФИО...">
+            </div>
+
+            <div id="email">
+                <label for="mail" class="display">Ваш email:</label>
+                <input type="email" id="mail" placeholder="Введите почту...">
+            </div>
+            <div id="advertisement">
+                <label for="type" class="display">Откуда узнали обо мне:</label>
+                <input type="radio" name="source" id="friend"> 
+                <label for="friend">Через знакомых</label>
+                <input type="radio" name="source" id="internet"> 
+                <label for="internet">Интернет</label>
+                <input type="radio" name="source" id="other"> 
+                <label for="other">Другое</label>
+            </div>
+            <div id="select">
+                <label for="type" class="display">Тип обращения:</label>
+                <select name="type">
+                    <option value="Жалоба">Жалоба</option>
+                    <option value="Предложение">Предложение</option>
+                </select>
+            </div>
+            <div id="message">
+                <label for="mess" class="display">Ваш текст:</label>
+                <textarea id="mess" placeholder="Напишите сообщение..." rows="6" cols="40"></textarea>
+            </div>  
+            <div>
+                <label for="consent" class="display">Даю согласие на обработку персональных данных:</label>
+                <input type="checkbox" name="consent">
+            </div>
+            <button type="button">Отправить</button>
+        </form>
+    </main>
+    <footer id="contact">
+        <h3>Контактная информация:</h3>
+        <p>Телефон: <span>+7-926-450-5065</span></p>
+        <p>Email: <span>vladilen.ivanov.04@mail.ru</span></p>
+        <p>Адрес: <span>Улица Пушкина, дом Колотушкина 69 корпус 2</span></p>
+    </footer>
+</body>
+</html>  
